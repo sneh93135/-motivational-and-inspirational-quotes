@@ -27,7 +27,7 @@ const getNewQuotes = () => {
       writer.innerText = `${unKnow}`
       : writer.innerText = `${main.author}`
 }
-
+    
 
 const info = async () => {
    const data = 'https://type.fit/api/quotes'
